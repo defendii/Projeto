@@ -1,4 +1,62 @@
 .Main{
     padding: 0.5rem 1rem;
     padding-bottom: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adicionar{
+    width: 70%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5ch;
+    border: none;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+button{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+.itens{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 214, 214);
+    border-radius: 5ch;
+    border: none;
+    margin-top: 10px;
+}
+
+.item1{
+    margin-top: 15px;
+    width: 80%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+p{
+    margin-left: 5px;
 }
